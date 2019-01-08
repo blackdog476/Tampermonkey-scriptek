@@ -18,5 +18,5 @@
     a.className = 'firstlevel';
     a.href = 'https://forum.av-rp.com/index.php?action=admin;area=viewmembers;sa=browse;showdupes=1;type=approve';
     li.appendChild(a);
-    document.getElementById('menu_nav').prepend(li);
+    document.getElementById('button_home').parentNode.prepend(li);
 })();
