@@ -33,6 +33,7 @@
             }
             a = jegyek.reduce((a, b) => a + b,0);
             b = c = jegyek.length;
+            if((a/b).toFixed(2) != atlagdom.innerText.replace(',','.')) continue;
             while(a/b > 2) { a++; b++; }
             if(b!=c) atlagdom.innerHTML += '<br /><font color="#0a0">+'+(b-c)+'</font>';
             if(c>0) targydom.innerHTML += ' <b>('+c+' jegy)</b>';
