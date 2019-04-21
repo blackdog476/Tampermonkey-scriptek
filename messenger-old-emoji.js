@@ -26,8 +26,8 @@
             if(src.indexOf('https://static.xx.fbcdn.net/images/emoji.php/v9') > -1) {
                 img = src.split('/'); img = img[img.length-1];
                 if(valid.indexOf(img) != -1) {
-                    if(i.src) i.src = 'https://memoji.ml/emojis/'+img;
-                    else i.style.backgroundImage = 'url("https://memoji.ml/emojis/'+img+'")';
+                    if(i.src) i.src = 'https://blckdg.ml/img/emojis/'+img;
+                    else i.style.backgroundImage = 'url("https://blckdg.ml/img/emojis/'+img+'")';
                 }
             }
         });
